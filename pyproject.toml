@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lahman"
+version = "0.1.0"
+authors = [
+  { name="Matthew Russell", email="matthew@mruss.dev" },
+]
+description = "A package for accessing the Lahman baseball database (https://www.seanlahman.com/baseball-archive/statistics)"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests==2.28.1",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mbr4477/lahman"
+"Bug Tracker" = "https://github.com/mbr4477/lahman/issues"
