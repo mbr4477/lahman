@@ -5,5 +5,6 @@ A simple interface for downloading and using the [Lahman Baseball Database](http
 ## Installation
 
 ```
+git clone https://github.com/mbr4477/lahman.git
 python -m pip install ./lahman
 ```
